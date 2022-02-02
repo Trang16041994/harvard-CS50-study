@@ -14,7 +14,7 @@ int main(void)
        {
               for (int i = 0; i < socham; i++)
               {
-                     printf (".");
+                     printf (" ");
               }
               for (int k = 0; k < sothang; k++)
               {
