@@ -13,14 +13,15 @@ int main(void)
        for (int j = 0; j < number; j++)
        {
               for (int i = 0; i < socham; i++)
-              {
-                     printf (" ");
-              }
-              for (int k = 0; k < sothang; k++)
-              {
-                     printf("#");
-              }
-              sothang=sothang + 1;
-              printf ("\n");socham=socham -1;
-}
+       {
+              printf(" ");
+       }
+        for (int k = 0; k < sothang; k++)
+        {
+          printf("#");
+        }
+        sothang = sothang + 1;
+        printf("\n");
+        socham = socham - 1;
+       }
 }
