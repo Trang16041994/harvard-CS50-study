@@ -4,7 +4,10 @@
 int main(void)
 {
        int number = get_int ("what number do you want? \n");
-       printf ("%i\n", number);
+       if number <1
+       {
+              return 1
+       }
        int socham = number - 1;
        int sothang = 1;
        for (int j = 0; j < number; j++)
