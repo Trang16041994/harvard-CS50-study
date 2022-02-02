@@ -4,9 +4,9 @@
 int main(void)
 {
        int number = get_int ("what number do you want? \n");
-       if number <1
+       if (number <1)
        {
-              return 1
+              return 1;
        }
        int socham = number - 1;
        int sothang = 1;
