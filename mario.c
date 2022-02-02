@@ -3,10 +3,10 @@
 
 int main(void)
 {
-       int number = get_int ("what number do you want? \n");
-       if (number <1)
+       int number=0;
+       while (number<1 || number>8)
        {
-              return 1;
+              number = get_int ("what number do you want? \n");
        }
        int socham = number - 1;
        int sothang = 1;
