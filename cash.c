@@ -77,7 +77,7 @@ int main(void)
     // Sum coins
     int coins = quarters + dimes + nickels + pennies;
     //printf("cents = %i\n", cents);
-   // printf("quarters = %i\n", quarters);
+    // printf("quarters = %i\n", quarters);
     //printf("dimes = %i\n", dimes);
     //printf("nickels = %i\n", nickels);
     //printf("pennies = %i\n", pennies);
