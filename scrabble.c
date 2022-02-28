@@ -20,13 +20,13 @@ int main(void)
 
     // TODO: Print the winner
 if(score1 < score2) {
-        printf("play 2 is winer \n");
+        printf("player 2 wins!");
     }
 else if(score1 > score2){
-    printf("play 1 is winer \n");
+    printf("player 1 wins!");
 }
 else{
-    printf("tie\n");
+    printf("tie!");
 }
 }
 // TODO: Compute and return score for string
