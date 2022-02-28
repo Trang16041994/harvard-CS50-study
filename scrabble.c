@@ -44,7 +44,7 @@ else{
         int diem= word[i]-'a';
         sum = POINTS[diem] + sum ;
     }
-    printf("%d\n", sum);
+    printf("%d", sum);
     return sum;
     // TODO: Compute and return score for string
 }
