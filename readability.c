@@ -16,13 +16,13 @@ int main(void)
     float index = 0.0588 * L - 0.296 * S - 15.8;
 
         if( index < 1){
-        printf("Before Grade 1\n");
+        printf("Before Grade 1");
         }
         if(index > 16) {
-            printf("Grade 16+\n");
+            printf("Grade 16+");
         }
         if(index >= 1 && index <=16) {
-            printf("Grade %0.0f\n", index);
+            printf("Grade %0.0f", index);
         }
 }
 
