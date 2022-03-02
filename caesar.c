@@ -9,8 +9,9 @@ char rotate(char p, int n);
 
 int main(int argc, string argv[])
 {
-    if (argc < 2){
+    if (argc != 2){
         printf("Usage: ./caesar key");
+        return 1;
     }
     if (!only_digital(argv[1])){
         return 1;
