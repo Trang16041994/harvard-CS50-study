@@ -19,7 +19,7 @@ int main(int argc, string argv[])
     for(int i = 0; i < strlen(p); i++) {
          c[i] = rotate(p[i],a);
     }
-    printf("%s", c);
+    printf("ciphertext: %s", c);
 }
 bool only_digital(string s)
 {
