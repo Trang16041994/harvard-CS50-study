@@ -44,6 +44,6 @@ char rotate(char p, int n)
     if( p>= 'a'&& p<='z')
         c='a'+c_so;
     else if(p>= 'A'&& p <='Z')
-        c = 'A' + p;
+        c = 'A' + c_so;
     return c;
 }
