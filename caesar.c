@@ -14,12 +14,12 @@ int main(int argc, string argv[])
     }
     int a = atoi(argv[1]);
 
-    string p = get_string("plain text");
+    string p = get_string("plaintext: ");
     string c = p;
     for(int i = 0; i < strlen(p); i++) {
          c[i] = rotate(p[i],a);
     }
-    printf("ciphertext: %s", c);
+    printf("ciphertext: %s\n", c);
 }
 bool only_digital(string s)
 {
@@ -32,10 +32,18 @@ bool only_digital(string s)
     }
 char rotate(char p, int n)
 {
-    char p_so = p - 'a';
+    char p_so = '\0';
+    //char p_so = p - 'a';
+    if(p >= 'a'&& p <= 'z')
+        p_so = p - 'a';
+    else if(p>= 'A'&&p<='Z')
+        p_so = p - 'A';
     char c_so = ((int)p_so + n) %26;
-    char c = 'a' + c_so;
+    //char c = 'a' + c_so;
+    char c = '\0';
+    if( p>= 'a'&& p<='z')
+        c='a'+c_so;
+    else if(p>= 'A'&& p <='Z')
+        c = 'A' + p;
     return c;
-
-
 }
