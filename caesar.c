@@ -40,7 +40,7 @@ char rotate(char p, int n)
         p_so = p - 'A';
     char c_so = ((int)p_so + n) %26;
     //char c = 'a' + c_so;
-    char c = '\0';
+    char c = p;
     if( p>= 'a'&& p<='z')
         c='a'+c_so;
     else if(p>= 'A'&& p <='Z')
